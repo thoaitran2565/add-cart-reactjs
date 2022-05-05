@@ -1,0 +1,112 @@
+.HeaderDown {
+    background-color: #fa4f30;
+}
+.Wrap-HeaderDown {
+    display: flex;
+    width: 94%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.HeaderDown-Left,
+.HeaderDown-Right {
+    width:15%;
+    text-align: center;
+}
+
+.HeaderDown-Left img {
+    width: 40%;
+}
+.HeaderDown-Mid {
+    width: 70%;
+    text-align: center;
+}
+.HeaderDown-Mid input {
+    width: 80%;
+    padding: 10px;
+}
+.HeaderDown-Mid button {
+    padding: 10px;
+    margin-left: 4px;
+}
+.HeaderDown-Right {
+    position: relative;
+}
+.HeaderDown-Right i{
+    color:#fff;
+    font-size:25px;
+}
+.HeaderDown-Right div:hover .HeaderDown-Right-Show {
+    display: block;
+    cursor: pointer;
+}
+
+.HeaderDown-Right-Show {
+    position: absolute;
+    right: 74px;
+    top: 138%;
+    min-width: 200px;
+    background-color:#fff;
+    display: none;
+}
+.HeaderDown-Right-Show-wrap {
+    max-height: 400px;
+    overflow-y: auto;
+}
+.HeaderDown-Right-Show::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 100px;
+    height: 16px;
+}
+.HeaderDown-Right .div1 {
+    width: 40px;
+    position: relative;
+}
+.HeaderDown-Right .div2 {
+    width: 50px;
+    margin: 0 auto;
+}
+.HeaderDown-Right div span {
+    position: absolute;
+    top: -16px;
+    right: -22px;
+    color: #fa4f30;
+    background-color: #fff;
+    padding: 0px 10px;
+    border-radius:30px;
+}
+.Wrap-cart-show {
+    width: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.cart-show-item {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+}
+.cart-show-item:hover {
+    background-color: #000;
+    color: #fff;
+}
+.cart-show-item img {
+    width: 16%;
+    height: 10%;
+    object-fit: cover;
+}
+.Seen-cart {
+    text-align: right;
+}
+.Seen-cart button {
+    padding: 10px;
+    margin: 10px 20px ;
+}
+.Seen-cart button a {
+    text-decoration: none;
+    color: #000;
+}

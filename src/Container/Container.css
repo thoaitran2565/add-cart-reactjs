@@ -1,0 +1,56 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 94%;
+    margin: 0 auto;
+}
+.Container-item {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    background-clip: content-box;
+    margin-bottom: 10px;
+}
+.Container-item img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.Container-item button {
+    margin-bottom: 10px;
+}
+/* over lay - add cart*/
+.overlay-add-cart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: FakeIn 0.4s linear;
+    display: none;
+}
+.Alrealdy-add-cart {
+    position: fixed;
+    background-color: #fff;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 8px;
+    padding: 10px 30px;
+    display: none;
+    animation: FakeIn 0.2s linear;
+}
+.Alrealdy-add-cart button {
+    float: right;
+}
+@keyframes FakeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

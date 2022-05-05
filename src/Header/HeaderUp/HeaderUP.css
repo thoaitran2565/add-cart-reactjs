@@ -1,0 +1,21 @@
+.HeaderUP {
+    background-color: #fa4f30;
+    padding: 10px;
+}
+.Wrap-HeaderUP {
+    display: flex;
+    width: 94%;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+}
+.Wrap-HeaderUP li {
+    margin: 0 10px;
+    color: #fff;
+}
+.HeaderUP-Left {
+    display: flex;
+}
+.HeaderUP-Right {
+    display: flex;
+}
