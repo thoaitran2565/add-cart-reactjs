@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <HeaderUp />
+    hi
       <Routes>
         <Route path="/add-cart-reactjs" element={
           <div>
