@@ -10,14 +10,14 @@ function App() {
     <div>
       <HeaderUp />
       <Routes>
-        <Route path="/" element={
+        <Route path="/add-cart-reactjs" element={
           <div>
             <HeaderDown />
             <Container />
           </div>
         } />
 
-        <Route path="/cart" element={<CartPage />} />
+        <Route path="/add-cart-reactjs/cart" element={<CartPage />} />
       </Routes>
     </div>
   );
