@@ -8,8 +8,7 @@ import CartPage from './CartPage/CartPage';
 function App() {
   return (
     <div>
-      
-    hi
+      <HeaderUp />
       <Routes>
         <Route path="/add-cart-reactjs" element={
           <div>
